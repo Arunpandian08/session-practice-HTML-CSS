@@ -4,21 +4,23 @@
 }
 .navbar-brand{
     font-size: 1.5rem !important;
-    margin-left: 15rem;
     padding: auto;
     font-family:Poppins !important;
 }
 .nav-link{
-    font-size: 1.5rem !important;
+    font-size: 1.2rem !important;
     font-family:Poppins !important;
     padding: auto;
 }
-.nav-items:hover{
-    color: #dfdddd !important;
+@media screen and (min-width:1025px) {
+    .navbar-brand{
+        margin-left: 8rem;
+    }
+    .navbar-nav{
+        margin-right: 8rem;
+    }
 }
-.navbar-nav{
-    margin-right: 15rem;
-}
+
 #about-me{
     margin-top: 5rem !important;
     margin-bottom: 10rem !important;
@@ -29,4 +31,8 @@
 .pro{
     margin-bottom: 2rem !important;
     margin-top: 1.5rem;
+}
+.bg-light{
+    padding-top: 1rem;
+    padding-bottom: 8rem !important;
 }
